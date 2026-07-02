@@ -84,7 +84,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TaxiService",
-  name: "Nova Cabs",
+  name: "Amar Tours & Travels",
   description:
     "Premium taxi service offering airport transfers, local rides, outstation trips, corporate travel, wedding cars, and sharing rides.",
   url: siteUrl,

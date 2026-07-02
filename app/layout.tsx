@@ -34,8 +34,8 @@ const siteUrl = "https://novacabs.example.com";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Nova Cabs — Premium Taxi Service | Airport, Local & Outstation",
-    template: "%s | Nova Cabs",
+    default: "Amar Tours & Travels — Premium Taxi Service | Airport, Local & Outstation",
+    template: "%s | Amar Tours & Travels",
   },
   description:
     "Reliable taxi service for airport transfers, local rides, outstation trips, and corporate travel. Transparent per-km pricing, professional drivers, instant WhatsApp booking — no app or login required.",
@@ -48,26 +48,26 @@ export const metadata: Metadata = {
     "local cab rental",
     "sharing ride taxi",
   ],
-  authors: [{ name: "Nova Cabs" }],
+  authors: [{ name: "Amar Tours & Travels" }],
   openGraph: {
     type: "website",
     url: siteUrl,
-    title: "Nova Cabs — Travel Comfortably, Arrive Safely",
+    title: "Amar Tours & Travels — Travel Comfortably, Arrive Safely",
     description:
       "Reliable taxi service for airport transfers, local rides, outstation trips & corporate travel. Book instantly on WhatsApp.",
-    siteName: "Nova Cabs",
+    siteName: "Amar Tours & Travels",
     images: [
       {
         url: "/images/og-cover.jpg",
         width: 1200,
         height: 630,
-        alt: "Nova Cabs premium taxi service",
+        alt: "Amar Tours & Travels premium taxi service",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Nova Cabs — Travel Comfortably, Arrive Safely",
+    title: "Amar Tours & Travels — Travel Comfortably, Arrive Safely",
     description:
       "Reliable taxi service for airport transfers, local rides, outstation trips & corporate travel.",
     images: ["/images/og-cover.jpg"],

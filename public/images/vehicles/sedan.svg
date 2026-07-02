@@ -1,0 +1,50 @@
+<svg viewBox="0 0 400 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sd-body" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#60A5FA"/>
+      <stop offset="55%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+    <linearGradient id="sd-glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E8EAF6" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#94A3B8" stop-opacity="0.35"/>
+    </linearGradient>
+    <radialGradient id="sd-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="sd-shadow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sd-wheel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3B4257"/>
+      <stop offset="100%" stop-color="#0F1326"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="200" cy="110" r="105" fill="url(#sd-glow)"/>
+  <ellipse cx="202" cy="180" rx="142" ry="14" fill="url(#sd-shadow)"/>
+
+  <!-- body -->
+  <path d="M30 140 C30 116 42 104 58 100 L96 86 L120 60 C130 50 144 44 160 44 L228 44 C242 44 254 50 261 60 L284 86 C320 90 366 98 380 116 C390 128 388 142 374 146 L362 146 C362 130 350 118 334 118 C318 118 306 130 306 146 L120 146 C120 130 108 118 92 118 C76 118 64 130 64 146 L42 146 C34 146 30 144 30 140 Z"
+    fill="url(#sd-body)"/>
+
+  <!-- greenhouse / windows -->
+  <path d="M104 84 L126 62 C133 55 144 50 156 50 L196 50 L196 84 Z" fill="url(#sd-glass)" opacity="0.9"/>
+  <path d="M202 50 L226 50 C238 50 248 55 254 62 L272 84 L202 84 Z" fill="url(#sd-glass)" opacity="0.9"/>
+  <path d="M199 50 L199 84" stroke="#0A0F24" stroke-width="2" opacity="0.5"/>
+
+  <!-- lights -->
+  <ellipse cx="368" cy="112" rx="10" ry="6" fill="#FDE68A" opacity="0.9"/>
+  <ellipse cx="44" cy="112" rx="8" ry="6" fill="#22D3EE" opacity="0.8"/>
+
+  <!-- chrome accent line -->
+  <path d="M40 104 L378 104" stroke="#E8EAF6" stroke-width="1.5" opacity="0.25"/>
+
+  <!-- wheels -->
+  <circle cx="92" cy="146" r="27" fill="url(#sd-wheel)"/>
+  <circle cx="92" cy="146" r="11.5" fill="#1C2438" stroke="#60A5FA" stroke-width="2"/>
+  <circle cx="334" cy="146" r="27" fill="url(#sd-wheel)"/>
+  <circle cx="334" cy="146" r="11.5" fill="#1C2438" stroke="#60A5FA" stroke-width="2"/>
+</svg>

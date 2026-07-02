@@ -1,0 +1,51 @@
+<svg viewBox="0 0 400 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sv-body" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#60A5FA"/>
+      <stop offset="55%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+    <linearGradient id="sv-glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E8EAF6" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#94A3B8" stop-opacity="0.35"/>
+    </linearGradient>
+    <radialGradient id="sv-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="sv-shadow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sv-wheel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3B4257"/>
+      <stop offset="100%" stop-color="#0F1326"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="200" cy="108" r="108" fill="url(#sv-glow)"/>
+  <ellipse cx="202" cy="182" rx="148" ry="14" fill="url(#sv-shadow)"/>
+
+  <!-- body: taller, boxier -->
+  <path d="M24 144 C24 114 38 100 56 96 L82 84 L104 50 C112 38 128 30 146 30 L246 30 C262 30 276 38 284 50 L304 84 L330 96 C356 100 384 110 392 130 C398 142 394 152 380 154 L368 154 C368 136 354 122 336 122 C318 122 304 136 304 154 L108 154 C108 136 94 122 76 122 C58 122 44 136 44 154 L34 154 C26 154 24 150 24 144 Z"
+    fill="url(#sv-body)"/>
+
+  <!-- windows -->
+  <path d="M112 80 L130 54 C136 44 148 38 160 38 L196 38 L196 80 Z" fill="url(#sv-glass)" opacity="0.9"/>
+  <path d="M202 38 L232 38 C246 38 258 44 264 54 L282 80 L202 80 Z" fill="url(#sv-glass)" opacity="0.9"/>
+  <path d="M199 38 L199 80" stroke="#0A0F24" stroke-width="2" opacity="0.5"/>
+  <path d="M112 80 L282 80" stroke="#0A0F24" stroke-width="1.5" opacity="0.3"/>
+
+  <!-- roof rack -->
+  <rect x="140" y="32" width="120" height="5" rx="2.5" fill="#0A0F24" opacity="0.4"/>
+
+  <!-- lights -->
+  <ellipse cx="380" cy="116" rx="10" ry="7" fill="#FDE68A" opacity="0.9"/>
+  <ellipse cx="38" cy="116" rx="8" ry="7" fill="#22D3EE" opacity="0.8"/>
+
+  <!-- wheels: larger -->
+  <circle cx="76" cy="154" r="30" fill="url(#sv-wheel)"/>
+  <circle cx="76" cy="154" r="13" fill="#1C2438" stroke="#60A5FA" stroke-width="2.2"/>
+  <circle cx="336" cy="154" r="30" fill="url(#sv-wheel)"/>
+  <circle cx="336" cy="154" r="13" fill="#1C2438" stroke="#60A5FA" stroke-width="2.2"/>
+</svg>

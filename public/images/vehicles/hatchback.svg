@@ -1,0 +1,50 @@
+<svg viewBox="0 0 400 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="hb-body" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#60A5FA"/>
+      <stop offset="55%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+    <linearGradient id="hb-glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E8EAF6" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#94A3B8" stop-opacity="0.35"/>
+    </linearGradient>
+    <radialGradient id="hb-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="hb-shadow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hb-wheel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3B4257"/>
+      <stop offset="100%" stop-color="#0F1326"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="200" cy="110" r="105" fill="url(#hb-glow)"/>
+  <ellipse cx="202" cy="178" rx="130" ry="14" fill="url(#hb-shadow)"/>
+
+  <!-- body -->
+  <path d="M62 138 C60 110 78 96 108 90 L140 64 C150 56 164 52 180 52 L262 52 C280 52 296 60 304 74 L320 92 C346 96 366 106 372 126 C376 138 372 148 360 150 L348 150 C348 134 336 122 320 122 C304 122 292 134 292 150 L138 150 C138 134 126 122 110 122 C94 122 82 134 82 150 L70 150 C64 150 60 144 62 138 Z"
+    fill="url(#hb-body)"/>
+
+  <!-- roofline highlight -->
+  <path d="M148 88 L176 66 C184 60 194 58 204 58 L256 58 C268 58 278 64 284 72 L300 90 Z"
+    fill="url(#hb-glass)" opacity="0.9"/>
+  <path d="M204 88 L204 58" stroke="#0A0F24" stroke-width="2" opacity="0.5"/>
+
+  <!-- headlight + taillight -->
+  <ellipse cx="358" cy="118" rx="9" ry="6" fill="#FDE68A" opacity="0.9"/>
+  <ellipse cx="78" cy="118" rx="7" ry="6" fill="#22D3EE" opacity="0.8"/>
+
+  <!-- door line -->
+  <path d="M218 96 L222 150" stroke="#0A0F24" stroke-width="1.5" opacity="0.35"/>
+
+  <!-- wheels -->
+  <circle cx="110" cy="150" r="26" fill="url(#hb-wheel)"/>
+  <circle cx="110" cy="150" r="11" fill="#1C2438" stroke="#60A5FA" stroke-width="2"/>
+  <circle cx="320" cy="150" r="26" fill="url(#hb-wheel)"/>
+  <circle cx="320" cy="150" r="11" fill="#1C2438" stroke="#60A5FA" stroke-width="2"/>
+</svg>
